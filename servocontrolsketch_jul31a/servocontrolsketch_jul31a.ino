@@ -1,3 +1,5 @@
+#include <VarSpeedServo.h>
+
   // Library added to allow control of servo speed
 
 #include <VarSpeedServo.h>
@@ -31,7 +33,7 @@ void loop() {
   // The first number is the top of the arc, sending it down
   // Expressed in actual degrees?
   // The second number controls the speed 
-  myservo.write(80,5,true);
+  myservo.write(70,5,true);
 
   // And then this is sending it back up
   // Again, the second number controls the speed
@@ -39,5 +41,5 @@ void loop() {
   // That's why comments are important in code.
   // Thanks so much to Robert Frisbee 
   // For all his help on this project
-  myservo.write(80,5,true);
+  myservo.write(120,5,true);
 }
